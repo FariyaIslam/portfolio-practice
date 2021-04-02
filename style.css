@@ -11,30 +11,121 @@ body {
 }
 
 .header{
-    height: 60vh;
-    width: 90%;
-    margin: 0 auto;
-
+    height: 70vh;
+    width: 100%;
+    margin: 0;
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+    margin-bottom: 150px;
 }
 
 .header--parent {
     display: flex;
-    height: 60vh;
+    height: 70vh;  
 }
 
 .header--img img {
-    width: 70%;
-   
+    width: 90%;
 }
 
 .header--content {
-    height: 60vh;
     width: 50%;
-    background: violet;
+    margin: 1rem 7rem;
+    padding: 1rem 1rem;
 }
 
 .header--img {
     width: 50%;
-    background: purple;
-    overflow: hidden;
+    margin: 1rem 5rem;
+    text-align: center;
+}
+
+.header--content__h1 {
+    display: block;
+    color: goldenrod;
+}
+.header--content h1{
+    margin-top: 2rem;
+    font-weight: 800;
+    font-size: 3rem;
+}
+.header--content h4 {
+    margin: 2rem 0;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+.header--content p {
+    margin: 2rem 0;
+    color: dimgray;
+    font-size: 0.9rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+.header--content a {
+    text-decoration: none;
+    padding: 0.5rem 1.5rem;
+    background-image: linear-gradient(to right bottom,goldenrod,#1fddff);
+    border-radius: 5px;
+    color: whitesmoke;
+    font-size: 700;
+}
+
+.middle-area {
+    height: 70vh;
+    margin: 0;
+    width: 100%;
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.middle--parent {
+    display: flex;
+    height: 70vh;
+    
+}
+
+.middle--img img {
+    width: 50%;
+    margin: 1rem 2rem;
+    
+}
+
+.middle--img {
+    width: 50%;
+    text-align: center;
+
+}
+
+.middle--content {
+    width: 50%;
+    padding: 2rem 8rem 2rem 3rem;
+
+}
+
+.middle--content h2{
+    margin: 2rem 0;
+    font-weight: 600;
+
+}
+.middle--content h4 {
+    margin: 1rem 0;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.middle--content p {
+    color: dimgray;
+    margin: 1rem 0;
+    font-weight: 500;
+    font-size: 0.9rem;    
+}
+
+.middle--content a {
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 0.5rem 1.5rem;
+    background-image: linear-gradient(to right bottom, #FF438D, goldenrod);;;
+    color: whitesmoke;
+    font-weight: 500;
 }
